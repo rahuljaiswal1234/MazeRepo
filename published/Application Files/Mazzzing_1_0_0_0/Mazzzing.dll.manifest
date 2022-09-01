@@ -207,22 +207,22 @@
       <dsig:DigestValue>27jc0P79FhNgKrxLtN1/fR2aBvCKveUJ2xgI3iy2Qoc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Mazzzing.dll" size="544768">
+  <file name="Mazzzing.dll" size="545280">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fve/Pz2cf7szI2oAMc13YZScDi98D4BiRM2cZFUs2zg=</dsig:DigestValue>
+      <dsig:DigestValue>D3fMOXMhV5J/2U0G4A9FSRrlHoGmGj+ldme+VICE0/Q=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Mazzzing.dll.config" size="386">
+  <file name="Mazzzing.dll.config" size="476">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>tNgEeZXlpA9k0mXPKytaPq8uDpEGRMXNvC8xlRr330I=</dsig:DigestValue>
+      <dsig:DigestValue>bOt+2KUuvOB6c2C2RZmxUl6C2dZ+r0+9e4pwv2QXT/g=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Mazzzing.exe" size="221696">
@@ -249,7 +249,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6X0emnRBceadM6JjmZOFhcd0VmJoZD9SbZdHUs3EDuw=</dsig:DigestValue>
+      <dsig:DigestValue>m7YbpanImmxOvJ5g9b9VOQ6SAIWHC3p4w4ervLmAMAQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Microsoft.Bcl.AsyncInterfaces.dll" size="14720">
@@ -510,7 +510,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>GeWGIHHFKsltn4ElDioQ3Us3C0Lk50Gp52NECIrPDOI=</dsig:DigestValue>
+      <dsig:DigestValue>GbVurnlwPoEyS1MDnkuaDukHaoQVSJQwK3UxNFiOLjg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ru\System.Private.ServiceModel.resources.dll" size="297336">
