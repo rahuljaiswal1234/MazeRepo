@@ -62,22 +62,22 @@
       <dsig:DigestValue>7BYUU9h0pgG+biVGRby8pJchg2Xpxcu/6SLJppWYmo4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DemoClickOnce.dll" size="6144">
+  <file name="DemoClickOnce.dll" size="5632">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ZKwFUJoU7xUZIk5p4vt35nbKDJOcwhBh7PO4fAceiPk=</dsig:DigestValue>
+      <dsig:DigestValue>I8v4MbYAQ2o7PF6P6gq190q2ddtGG/wS09ImFwYSaMY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DemoClickOnce.exe" size="174592">
+  <file name="DemoClickOnce.exe" size="174080">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uFkCy6tyIjUzKrPUnrw3iQb3Gr/husPHmj3fPn9HTFU=</dsig:DigestValue>
+      <dsig:DigestValue>2sFiSR9BaT6+jkLxjfp7KQ6dliLWZKfzJ8q3mFVhz4U=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DemoClickOnce.runtimeconfig.json" size="161">
