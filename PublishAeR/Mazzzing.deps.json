@@ -8,13 +8,11 @@
     ".NETCoreApp,Version=v3.1": {
       "Mazzzing/1.0.0": {
         "dependencies": {
-          "Mediaplayer": "1.0.0",
           "Microsoft.Data.Sqlite": "5.0.0",
           "Microsoft.Data.Sqlite.Core": "5.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
-          "RijndaelEncryptDecrypt": "1.0.0",
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Diagnostics.Process": "4.3.0",
           "VisioForge.DotNet.Core": "15.4.2",
@@ -989,40 +987,12 @@
           }
         }
       },
-      "VisioForge.DotNet.Core.Redist.LAV.x64/15.4.2": {},
-      "VisioForge.DotNet.Core.Redist.LAV.x86/15.4.2": {},
-      "VisioForge.DotNet.Core.UI.WinForms/15.4.2": {
-        "dependencies": {
-          "VisioForge.DotNet.Core": "15.4.2"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/VisioForge.Core.UI.WinForms.dll": {
-            "assemblyVersion": "15.4.2.0",
-            "fileVersion": "15.4.2.0"
-          }
-        }
-      },
       "YamlDotNet/11.2.1": {
         "runtime": {
           "lib/netstandard2.1/YamlDotNet.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.2.1.0"
           }
-        }
-      },
-      "Mediaplayer/1.0.0": {
-        "dependencies": {
-          "VisioForge.DotNet.Core.Redist.LAV.x64": "15.4.2",
-          "VisioForge.DotNet.Core.Redist.LAV.x86": "15.4.2",
-          "VisioForge.DotNet.Core.UI.WinForms": "15.4.2"
-        },
-        "runtime": {
-          "Mediaplayer.dll": {}
-        }
-      },
-      "RijndaelEncryptDecrypt/1.0.0": {
-        "runtime": {
-          "RijndaelEncryptDecrypt.dll": {}
         }
       },
       "MsTscAxWrapper/1.0.0.0": {
@@ -1644,43 +1614,12 @@
       "path": "visioforge.dotnet.core/15.4.2",
       "hashPath": "visioforge.dotnet.core.15.4.2.nupkg.sha512"
     },
-    "VisioForge.DotNet.Core.Redist.LAV.x64/15.4.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-d8qWCfK5StB7yVoP7SGdKJHBPE+vgpujL1Q0IpgRi/pevBBsMtlJdQQUYClf9itpfw1NJbRACCtV3SfsH9VPXg==",
-      "path": "visioforge.dotnet.core.redist.lav.x64/15.4.2",
-      "hashPath": "visioforge.dotnet.core.redist.lav.x64.15.4.2.nupkg.sha512"
-    },
-    "VisioForge.DotNet.Core.Redist.LAV.x86/15.4.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8jmHlTLbxkMglv/PmXiIcHLkxHbX5znCFhNpz4RIO4If832B6qudcsJCQ9vsEECgJvyIgjbwwhWVANLRbI6sag==",
-      "path": "visioforge.dotnet.core.redist.lav.x86/15.4.2",
-      "hashPath": "visioforge.dotnet.core.redist.lav.x86.15.4.2.nupkg.sha512"
-    },
-    "VisioForge.DotNet.Core.UI.WinForms/15.4.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5LCA4cZ+26FjrDyQ6TM13sT4bIm7ArSFIyVVGUYx59H5oHGvOyRk5YuCxHZjle4jC58IZjiZ9IY4A7qrnbgyuQ==",
-      "path": "visioforge.dotnet.core.ui.winforms/15.4.2",
-      "hashPath": "visioforge.dotnet.core.ui.winforms.15.4.2.nupkg.sha512"
-    },
     "YamlDotNet/11.2.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tBt8K+korVfrjH9wyDEhiLKxbs8qoLCLIFwvYgkSUuMC9//w3z0cFQ8LQAI/5MCKq+BMil0cfRTRvPeE7eXhQw==",
       "path": "yamldotnet/11.2.1",
       "hashPath": "yamldotnet.11.2.1.nupkg.sha512"
-    },
-    "Mediaplayer/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "RijndaelEncryptDecrypt/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "MsTscAxWrapper/1.0.0.0": {
       "type": "reference",
