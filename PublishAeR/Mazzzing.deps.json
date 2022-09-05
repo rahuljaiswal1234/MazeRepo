@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v3.1": {
       "Mazzzing/1.0.0": {
         "dependencies": {
-          "IronPython": "2.7.12",
           "Mediaplayer": "1.0.0",
           "Microsoft.Data.Sqlite": "5.0.0",
           "Microsoft.Data.Sqlite.Core": "5.0.0",
@@ -29,52 +28,7 @@
           "Mazzzing.dll": {}
         }
       },
-      "DynamicLanguageRuntime/1.3.1": {
-        "dependencies": {
-          "System.CodeDom": "4.7.0",
-          "System.Configuration.ConfigurationManager": "4.7.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Dynamic.dll": {
-            "assemblyVersion": "1.3.1.0",
-            "fileVersion": "1.3.1.1000"
-          },
-          "lib/netcoreapp3.1/Microsoft.Scripting.Metadata.dll": {
-            "assemblyVersion": "1.3.1.0",
-            "fileVersion": "1.3.1.1000"
-          },
-          "lib/netcoreapp3.1/Microsoft.Scripting.dll": {
-            "assemblyVersion": "1.3.1.0",
-            "fileVersion": "1.3.1.1000"
-          }
-        }
-      },
       "Humanizer.Core/2.8.26": {},
-      "IronPython/2.7.12": {
-        "dependencies": {
-          "DynamicLanguageRuntime": "1.3.1",
-          "Microsoft.Win32.Registry": "5.0.0",
-          "Mono.Unix": "7.1.0-final.1.21458.1"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/IronPython.Modules.dll": {
-            "assemblyVersion": "2.7.12.0",
-            "fileVersion": "2.7.12.1000"
-          },
-          "lib/netcoreapp3.1/IronPython.SQLite.dll": {
-            "assemblyVersion": "2.7.12.0",
-            "fileVersion": "2.7.12.1000"
-          },
-          "lib/netcoreapp3.1/IronPython.Wpf.dll": {
-            "assemblyVersion": "2.7.12.0",
-            "fileVersion": "2.7.12.1000"
-          },
-          "lib/netcoreapp3.1/IronPython.dll": {
-            "assemblyVersion": "2.7.12.0",
-            "fileVersion": "2.7.12.1000"
-          }
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -344,106 +298,6 @@
           }
         }
       },
-      "Mono.Unix/7.1.0-final.1.21458.1": {
-        "runtime": {
-          "lib/netcoreapp3.1/Mono.Unix.dll": {
-            "assemblyVersion": "7.1.0.0",
-            "fileVersion": "7.100.21.45801"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/android-arm/native/libMono.Unix.so": {
-            "rid": "android-arm",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/android-arm64/native/libMono.Unix.so": {
-            "rid": "android-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/android-x64/native/libMono.Unix.so": {
-            "rid": "android-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/android-x86/native/libMono.Unix.so": {
-            "rid": "android-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/ios-arm/native/libMono.Unix.a": {
-            "rid": "ios-arm",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/ios-arm64/native/libMono.Unix.a": {
-            "rid": "ios-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/ios-armv7s/native/libMono.Unix.a": {
-            "rid": "ios-armv7s",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/iossimulator-arm64/native/libMono.Unix.a": {
-            "rid": "iossimulator-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/iossimulator-x64/native/libMono.Unix.a": {
-            "rid": "iossimulator-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-arm/native/libMono.Unix.so": {
-            "rid": "linux-arm",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-arm64/native/libMono.Unix.so": {
-            "rid": "linux-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-x64/native/libMono.Unix.so": {
-            "rid": "linux-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/maccatalyst-arm64/native/libMono.Unix.a": {
-            "rid": "maccatalyst-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/maccatalyst-x64/native/libMono.Unix.a": {
-            "rid": "maccatalyst-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/osx-arm64/native/libMono.Unix.dylib": {
-            "rid": "osx-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/osx-x64/native/libMono.Unix.dylib": {
-            "rid": "osx-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/tvos-arm64/native/libMono.Unix.a": {
-            "rid": "tvos-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/tvossimulator-x64/native/libMono.Unix.a": {
-            "rid": "tvossimulator-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "python/3.10.5": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
@@ -600,7 +454,6 @@
           }
         }
       },
-      "System.CodeDom/4.7.0": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -622,12 +475,6 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
-        }
-      },
-      "System.Configuration.ConfigurationManager/4.7.0": {
-        "dependencies": {
-          "System.Security.Cryptography.ProtectedData": "4.7.0",
-          "System.Security.Permissions": "5.0.0"
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -941,7 +788,6 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/4.7.0": {},
       "System.Security.Cryptography.Xml/5.0.0": {
         "dependencies": {
           "System.Security.Cryptography.Pkcs": "5.0.0",
@@ -1239,26 +1085,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DynamicLanguageRuntime/1.3.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UJtMjb7305dvqycigIB100ualBnXlhmReDTViPKEVjtqwwHywYnhCb37gUEiVuel+lkJBq99N/ITX6Z7P1W6xQ==",
-      "path": "dynamiclanguageruntime/1.3.1",
-      "hashPath": "dynamiclanguageruntime.1.3.1.nupkg.sha512"
-    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
-    },
-    "IronPython/2.7.12": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fxbH4L39a0AkDfvjH+9z+P1A1wSIUHtmU5XKn/2FUt2JA73rfJ9o8iuRIic+TYSpu6M4AeduRxNV87Fcvk0vIw==",
-      "path": "ironpython/2.7.12",
-      "hashPath": "ironpython.2.7.12.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "type": "package",
@@ -1463,13 +1295,6 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
-    "Mono.Unix/7.1.0-final.1.21458.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Rhxz4A7By8Q0wEgDqR+mioDsYXGrcYMYPiWE9bSaUKMpG8yAGArhetEQV5Ms6KhKCLdQTlPYLBKPZYoKbAvT/g==",
-      "path": "mono.unix/7.1.0-final.1.21458.1",
-      "hashPath": "mono.unix.7.1.0-final.1.21458.1.nupkg.sha512"
-    },
     "python/3.10.5": {
       "type": "package",
       "serviceable": true,
@@ -1540,13 +1365,6 @@
       "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
       "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512"
     },
-    "System.CodeDom/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Hs9pw/kmvH3lXaZ1LFKj3pLQsiGfj2xo3sxSzwiLlRL6UcMZUTeCfoJ9Udalvn3yq5dLlPEZzYegrTQ1/LhPOQ==",
-      "path": "system.codedom/4.7.0",
-      "hashPath": "system.codedom.4.7.0.nupkg.sha512"
-    },
     "System.Collections/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1567,13 +1385,6 @@
       "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "path": "system.componentmodel.annotations/5.0.0",
       "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
-    },
-    "System.Configuration.ConfigurationManager/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/anOTeSZCNNI2zDilogWrZ8pNqCmYbzGNexUnNhjW8k0sHqEZ2nHJBp147jBV3hGYswu5lINpNg1vxR7bnqvVA==",
-      "path": "system.configuration.configurationmanager/4.7.0",
-      "hashPath": "system.configuration.configurationmanager.4.7.0.nupkg.sha512"
     },
     "System.Diagnostics.Contracts/4.3.0": {
       "type": "package",
@@ -1756,13 +1567,6 @@
       "sha512": "sha512-9TPLGjBCGKmNvG8pjwPeuYy0SMVmGZRwlTZvyPHDbYv/DRkoeumJdfumaaDNQzVGMEmbWtg07zUpSW9q70IlDQ==",
       "path": "system.security.cryptography.pkcs/5.0.0",
       "hashPath": "system.security.cryptography.pkcs.5.0.0.nupkg.sha512"
-    },
-    "System.Security.Cryptography.ProtectedData/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ehYW0m9ptxpGWvE4zgqongBVWpSDU/JCFD4K7krxkQwSz/sFQjEXCUqpvencjy6DYDbn7Ig09R8GFffu8TtneQ==",
-      "path": "system.security.cryptography.protecteddata/4.7.0",
-      "hashPath": "system.security.cryptography.protecteddata.4.7.0.nupkg.sha512"
     },
     "System.Security.Cryptography.Xml/5.0.0": {
       "type": "package",
