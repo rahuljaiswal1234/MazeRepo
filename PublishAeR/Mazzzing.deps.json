@@ -19,13 +19,9 @@
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Diagnostics.Process": "4.3.0",
           "python": "3.10.5",
-<<<<<<< HEAD
           "VisioForge.DotNet.Core": "15.4.2",
           "DevExpress.XtraBars.v21.2": "21.2.6.0",
           "DevExpress.XtraEditors.v21.2": "21.2.6.0",
-=======
-          "VisioForge.DotNet.Core.UI.WinForms": "15.4.2",
->>>>>>> 45c94a066079e05046ba665e7588fb4562ec22bf
           "MsTscAxWrapper": "1.0.0.0",
           "MSTSCLib": "1.0.0.0"
         },
@@ -1187,7 +1183,6 @@
           "RijndaelEncryptDecrypt.dll": {}
         }
       },
-<<<<<<< HEAD
       "DevExpress.XtraBars.v21.2/21.2.6.0": {
         "runtime": {
           "DevExpress.XtraBars.v21.2.dll": {
@@ -1204,8 +1199,6 @@
           }
         }
       },
-=======
->>>>>>> 45c94a066079e05046ba665e7588fb4562ec22bf
       "MsTscAxWrapper/1.0.0.0": {
         "runtime": {
           "MsTscAxWrapper.dll": {
@@ -1221,7 +1214,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-<<<<<<< HEAD
       },
       "DevExpress.Utils.v21.2/21.2.6.0": {
         "runtime": {
@@ -1238,8 +1230,6 @@
             "fileVersion": "21.2.6.0"
           }
         }
-=======
->>>>>>> 45c94a066079e05046ba665e7588fb4562ec22bf
       }
     }
   },
@@ -1931,7 +1921,6 @@
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
     "DevExpress.XtraBars.v21.2/21.2.6.0": {
       "type": "reference",
       "serviceable": false,
@@ -1942,8 +1931,6 @@
       "serviceable": false,
       "sha512": ""
     },
-=======
->>>>>>> 45c94a066079e05046ba665e7588fb4562ec22bf
     "MsTscAxWrapper/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -1953,7 +1940,6 @@
       "type": "reference",
       "serviceable": false,
       "sha512": ""
-<<<<<<< HEAD
     },
     "DevExpress.Utils.v21.2/21.2.6.0": {
       "type": "reference",
@@ -1964,8 +1950,6 @@
       "type": "reference",
       "serviceable": false,
       "sha512": ""
-=======
->>>>>>> 45c94a066079e05046ba665e7588fb4562ec22bf
     }
   }
 }
