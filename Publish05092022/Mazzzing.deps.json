@@ -993,8 +993,14 @@
           }
         }
       },
+      "VisioForge.DotNet.Core.Redist.Base.x64/15.4.17": {},
       "VisioForge.DotNet.Core.Redist.LAV.x64/15.4.2": {},
       "VisioForge.DotNet.Core.Redist.LAV.x86/15.4.2": {},
+      "VisioForge.DotNet.Core.Redist.MP4.x64/15.4.17": {
+        "dependencies": {
+          "VisioForge.DotNet.Core.Redist.Base.x64": "15.4.17"
+        }
+      },
       "VisioForge.DotNet.Core.UI.WinForms/15.4.2": {
         "dependencies": {
           "VisioForge.DotNet.Core": "15.4.2"
@@ -1018,6 +1024,7 @@
         "dependencies": {
           "VisioForge.DotNet.Core.Redist.LAV.x64": "15.4.2",
           "VisioForge.DotNet.Core.Redist.LAV.x86": "15.4.2",
+          "VisioForge.DotNet.Core.Redist.MP4.x64": "15.4.17",
           "VisioForge.DotNet.Core.UI.WinForms": "15.4.2"
         },
         "runtime": {
@@ -1687,6 +1694,13 @@
       "path": "visioforge.dotnet.core/15.4.2",
       "hashPath": "visioforge.dotnet.core.15.4.2.nupkg.sha512"
     },
+    "VisioForge.DotNet.Core.Redist.Base.x64/15.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cuef0MTGhwcL9P8JJbYHaWUQaLnEJsuerh5wnliVQKdq+DKkTNpo7O8VqJSB72frSLshFnMeTjDlgWdFquFBDg==",
+      "path": "visioforge.dotnet.core.redist.base.x64/15.4.17",
+      "hashPath": "visioforge.dotnet.core.redist.base.x64.15.4.17.nupkg.sha512"
+    },
     "VisioForge.DotNet.Core.Redist.LAV.x64/15.4.2": {
       "type": "package",
       "serviceable": true,
@@ -1700,6 +1714,13 @@
       "sha512": "sha512-8jmHlTLbxkMglv/PmXiIcHLkxHbX5znCFhNpz4RIO4If832B6qudcsJCQ9vsEECgJvyIgjbwwhWVANLRbI6sag==",
       "path": "visioforge.dotnet.core.redist.lav.x86/15.4.2",
       "hashPath": "visioforge.dotnet.core.redist.lav.x86.15.4.2.nupkg.sha512"
+    },
+    "VisioForge.DotNet.Core.Redist.MP4.x64/15.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/ZLbtBgW5yJbdp2w9ULjZoiwhBOSlSVDn/5VDjptM7sNzVeEZeTjhTus3bzkeqynCB4ZB/0ErnDxhKTEs5JUg==",
+      "path": "visioforge.dotnet.core.redist.mp4.x64/15.4.17",
+      "hashPath": "visioforge.dotnet.core.redist.mp4.x64.15.4.17.nupkg.sha512"
     },
     "VisioForge.DotNet.Core.UI.WinForms/15.4.2": {
       "type": "package",
