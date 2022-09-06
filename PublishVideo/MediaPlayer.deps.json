@@ -10,7 +10,11 @@
         "dependencies": {
           "VisioForge.DotNet.Core.Redist.LAV.x64": "15.4.2",
           "VisioForge.DotNet.Core.Redist.LAV.x86": "15.4.2",
-          "VisioForge.DotNet.Core.UI.WinForms": "15.4.2"
+          "VisioForge.DotNet.Core.Redist.MediaPlayer.x64": "15.4.2",
+          "VisioForge.DotNet.Core.Redist.MediaPlayer.x86": "15.4.2",
+          "VisioForge.DotNet.Core.UI.WinForms": "15.4.2",
+          "VisioForge.DotNet.MediaPlayer": "15.4.2",
+          "VisioForge.DotNet.Core": "15.4.2"
         },
         "runtime": {
           "MediaPlayer.dll": {}
@@ -461,8 +465,20 @@
           }
         }
       },
+      "VisioForge.DotNet.Core.Redist.Base.x64/15.4.2": {},
+      "VisioForge.DotNet.Core.Redist.Base.x86/15.4.2": {},
       "VisioForge.DotNet.Core.Redist.LAV.x64/15.4.2": {},
       "VisioForge.DotNet.Core.Redist.LAV.x86/15.4.2": {},
+      "VisioForge.DotNet.Core.Redist.MediaPlayer.x64/15.4.2": {
+        "dependencies": {
+          "VisioForge.DotNet.Core.Redist.Base.x64": "15.4.2"
+        }
+      },
+      "VisioForge.DotNet.Core.Redist.MediaPlayer.x86/15.4.2": {
+        "dependencies": {
+          "VisioForge.DotNet.Core.Redist.Base.x86": "15.4.2"
+        }
+      },
       "VisioForge.DotNet.Core.UI.WinForms/15.4.2": {
         "dependencies": {
           "VisioForge.DotNet.Core": "15.4.2"
@@ -472,6 +488,11 @@
             "assemblyVersion": "15.4.2.0",
             "fileVersion": "15.4.2.0"
           }
+        }
+      },
+      "VisioForge.DotNet.MediaPlayer/15.4.2": {
+        "dependencies": {
+          "VisioForge.DotNet.Core": "15.4.2"
         }
       },
       "YamlDotNet/11.2.1": {
@@ -707,6 +728,20 @@
       "path": "visioforge.dotnet.core/15.4.2",
       "hashPath": "visioforge.dotnet.core.15.4.2.nupkg.sha512"
     },
+    "VisioForge.DotNet.Core.Redist.Base.x64/15.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2N98XcZuxWQuJ+JPULPxoqBZLL0eFXNcIBt83VHBJbhRIc9vJhZRbXvnPHgcLtL08hjhDSj8psn2hi/uVO/z0A==",
+      "path": "visioforge.dotnet.core.redist.base.x64/15.4.2",
+      "hashPath": "visioforge.dotnet.core.redist.base.x64.15.4.2.nupkg.sha512"
+    },
+    "VisioForge.DotNet.Core.Redist.Base.x86/15.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B4MI+43vzRddQLZtTv+ZyKIYH8o1xakeiu9jLPDdRyLAyd2XLxSAXsh0g1sOQ5dX2/yyZC/ZHQAN5dZ5yF2EAw==",
+      "path": "visioforge.dotnet.core.redist.base.x86/15.4.2",
+      "hashPath": "visioforge.dotnet.core.redist.base.x86.15.4.2.nupkg.sha512"
+    },
     "VisioForge.DotNet.Core.Redist.LAV.x64/15.4.2": {
       "type": "package",
       "serviceable": true,
@@ -721,12 +756,33 @@
       "path": "visioforge.dotnet.core.redist.lav.x86/15.4.2",
       "hashPath": "visioforge.dotnet.core.redist.lav.x86.15.4.2.nupkg.sha512"
     },
+    "VisioForge.DotNet.Core.Redist.MediaPlayer.x64/15.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lLY2w5DxcAo7WOQYCoiFuL2geGORCRnrrTHua53wBfwdnmI4Vh9meAUabSNSCehnpcnCt7rgXxoPFDVefPQIsA==",
+      "path": "visioforge.dotnet.core.redist.mediaplayer.x64/15.4.2",
+      "hashPath": "visioforge.dotnet.core.redist.mediaplayer.x64.15.4.2.nupkg.sha512"
+    },
+    "VisioForge.DotNet.Core.Redist.MediaPlayer.x86/15.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c7dIDd1km6+siMT1FCU7OcXHIQhmqmPEmFudQackKsl81+Ol09kmAZTZ+fOaKLUJ4Mb4zN/qSmHtU5PasKTVZQ==",
+      "path": "visioforge.dotnet.core.redist.mediaplayer.x86/15.4.2",
+      "hashPath": "visioforge.dotnet.core.redist.mediaplayer.x86.15.4.2.nupkg.sha512"
+    },
     "VisioForge.DotNet.Core.UI.WinForms/15.4.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-5LCA4cZ+26FjrDyQ6TM13sT4bIm7ArSFIyVVGUYx59H5oHGvOyRk5YuCxHZjle4jC58IZjiZ9IY4A7qrnbgyuQ==",
       "path": "visioforge.dotnet.core.ui.winforms/15.4.2",
       "hashPath": "visioforge.dotnet.core.ui.winforms.15.4.2.nupkg.sha512"
+    },
+    "VisioForge.DotNet.MediaPlayer/15.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U0/ufLdGEqtvYsXjY/Q1qg89JDis6DUdp1a1tdh4jAYo2avJSHcLJypmnpxMfrVx4S4fHmWktjH3AIp56c5UMA==",
+      "path": "visioforge.dotnet.mediaplayer/15.4.2",
+      "hashPath": "visioforge.dotnet.mediaplayer.15.4.2.nupkg.sha512"
     },
     "YamlDotNet/11.2.1": {
       "type": "package",
