@@ -1,5 +1,4 @@
 *.manifest binary
 *.application binary
 *.deploy binary
-*.mp4 binary
 *  -text
