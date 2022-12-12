@@ -1,0 +1,7 @@
+
+Server List:
+Last Update:Mon Dec 12 01:25:32 2022
+@@
+1,1,149.137.224.68,0,0,Canada_1||
+@@
+Status: 1
