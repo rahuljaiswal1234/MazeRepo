@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<appSettings>
+		<add key="PythonFilepath" value="Python\CluoStatusV1x0.exe"/>
+		<add key="PythonTxtFile" value="receive_file.txt"/>
+		
+		<add key ="Port" value="4300"/>
+		<add key ="DefaultUrl" value="stream.mazzzing.com"/>
+		
+	</appSettings>
+	<connectionStrings>
+		
+		
+		
+	</connectionStrings>
+</configuration>
